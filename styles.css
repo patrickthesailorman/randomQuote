@@ -6,6 +6,12 @@
     float: left;
 }
 
+#wrapper {
+    margin: 60px;
+    padding: 60px;
+   
+}
+
 #quote {
     /*margin-top: 50px;*/
     background-color: turquoise;
@@ -14,7 +20,7 @@
     top: 80px;
     border: 1px solid black;
     border-radius: 5px;
-    
+
 }
 
 /*#quote.background-color {*/
