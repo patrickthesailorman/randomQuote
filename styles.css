@@ -2,44 +2,54 @@
     background-color: lightblue;
     color: green;
     text-align: center;
-    top: 10px;
-    float: left;
+    margin-top: 10px;
+    display: block;
 }
 
 #wrapper {
-    margin: 60px;
-    padding: 60px;
-   
+    /*margin: 20px;*/
+    /*padding: 10px;*/
+    display: inline-block;
 }
 
 #quote {
     /*margin-top: 50px;*/
-    background-color: turquoise;
-    color: white;
+    background-color: rgba(64, 224, 208, 0.4);
     text-align: center;
     top: 80px;
     border: 1px solid black;
     border-radius: 5px;
+    margin: 75px;
+}
+
+#quote>h4 {
+   color: white; 
 
 }
 
-/*#quote.background-color {*/
-/*   opacity: 0.7; */
+#quote>p {
+   color: white; 
 
-/*}*/
+}
+
+.well {
+   color: white; 
+
+}
 
 #getQuote {
     text-align: center;
-    margin-top: 70px;
+    margin-left: 25px;
+    margin-top: 10px;
     left: 10px;
     border: 1px solid black;
-    color: red;
-  
+    color: white;
+    background-color: green;
 }
 
 #getQuote:hover {
     opacity: 0.5;
-    color: blue;
+    color: #fff;
 }
 
 .background {
@@ -53,23 +63,10 @@
     
 }
 
-/*#img {*/
-/*    background: url("assets/james-donovan-180375.jpg");*/
-/*    background-attachment: fixed;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*    opacity: 0.7;*/
-/*    height: 800px;*/
-/*    width: 800px;*/
-    
-/*}*/
-.btn.btn-twitter {
+#twitter {
     background: #00acee;
     border-radius: 0;
-    margin: 30px;
-    padding: 5px;
-
+    margin-left: 25px;
 }
 
 .btn-twitter:hover {

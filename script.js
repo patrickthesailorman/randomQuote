@@ -10,6 +10,9 @@
 
         $(".message").html(data[0].content + " - " + data[0].title);
         
+        $('#twitter').attr('href', 'https://twitter.com/intent/tweet?text=' + data[0].content + ' — ' + data[0].title);
+// }, 'jsonp');
+        
     });
     });
 });
