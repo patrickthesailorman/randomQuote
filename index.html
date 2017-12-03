@@ -19,16 +19,19 @@
 			<div class="wrapper">
 				<div class="well col-xs-12 message" id="quote">
 					<h4>When you need a quote...</h4>
-				</div>	
-				<div class="col-xs-12 row text-center tweet">
-					<a class="btn btn-default" id="twitter" href="#" role="button" target="_blank"><i class="fa fa-twitter"></i>Tweet It</a>
-				<!--<a class="twitter-share-button" data-show-count="false" href="https://twitter.com/share?ref_src=twsrc%5Etfw">Tweet This</a> -->
-					<script async charset="utf-8" src="https://platform.twitter.com/widgets.js">
-					</script>
+					<div class="col-xs-12 row text-center tweet" id="tweet">
+						<a class="btn btn-default" href="#" id="twitter" role="button" target="_blank"><i class="fa fa-twitter"></i>Tweet It</a> <!--<a class="twitter-share-button" data-show-count="false" href="https://twitter.com/share?ref_src=twsrc%5Etfw">Tweet This</a> -->
+						 
+						<script async charset="utf-8" src="https://platform.twitter.com/widgets.js">
+						</script>
+					<div class="col-xs-12 row text-center getQuote">
+						
+						<button class="btn btn-primary" id="getQuote">Get Quote</button>
+						
+					</div>
+					
+					</div>
 				</div>
-			</div>
-			<div class="col-xs-12 row text-center getQuote">
-				<button class="btn btn-primary" id="getQuote">Get Quote</button>
 			</div>
 		</div>
 	</div>
@@ -38,6 +41,5 @@
 	</script> 
 	<script src="script.js">
 	</script>
-	
 </body>
 </html>
