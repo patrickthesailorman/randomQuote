@@ -44,7 +44,7 @@
     left: 10px;
     border: 1px solid black;
     color: white;
-    background-color: green;
+    background-color: silver;
 }
 
 #getQuote:hover {
@@ -64,7 +64,7 @@
 }
 
 #twitter {
-    background: #00acee;
+    background: #a795a3;
     border-radius: 0;
     margin-left: 25px;
 }
